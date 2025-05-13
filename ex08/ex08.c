@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ex08.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jeandrad <jeandrad@student.42malaga.com    +#+  +:+       +#+        */
+/*   By: darguerr <darguerr@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/12 16:33:05 by jeandrad          #+#    #+#             */
-/*   Updated: 2025/05/12 16:33:53 by jeandrad         ###   ########.fr       */
+/*   Updated: 2025/05/13 18:12:03 by darguerr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,22 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
+
+/*
+ex08 el main no hace las comprobaciones de la cantidad de argumentos que deberia ser
+if (argc < 3)
+	{
+		print_string("Uso: ./programa <numero>\n");
+		return (1);
+	}
+
+	Ex08: línea 59 : falta sumar 26 + 1 por el carácter nulo
+
+	no libera cuando !buffer
+
+	
+	ex08: si el repeat recibe un numero muy grande, me dice que times must be greater than 0 (imagino que tiene que ver con lo del valor minimo de un entero, que es -214 no me acuerdo de mas XD) ????
+*/
 
 void	print_string(const char *str)
 {
