@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ex06.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jeandrad <jeandrad@student.42malaga.com    +#+  +:+       +#+        */
+/*   By: darguerr <darguerr@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/12 16:30:36 by jeandrad          #+#    #+#             */
-/*   Updated: 2025/05/12 16:31:09 by jeandrad         ###   ########.fr       */
+/*   Updated: 2025/05/13 17:55:04 by darguerr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,11 @@
 #include <string.h>
 #include <unistd.h>
 
+/*
+Función ilegal: Free
+ex06: bucle infinito en el primer while
+putchar tampoco permitida
+*/
 void	putchar(char c)
 {
 	write(1, &c, 1);

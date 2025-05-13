@@ -3,13 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ex01.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jeandrad <jeandrad@student.42malaga.com    +#+  +:+       +#+        */
+/*   By: darguerr <darguerr@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/12 16:36:07 by jeandrad          #+#    #+#             */
-/*   Updated: 2025/05/12 16:36:20 by jeandrad         ###   ########.fr       */
+/*   Updated: 2025/05/13 17:18:18 by darguerr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+
+/*
+Ex01 fallo de norma: nombres en español.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

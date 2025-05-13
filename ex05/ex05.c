@@ -3,12 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ex05.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jeandrad <jeandrad@student.42malaga.com    +#+  +:+       +#+        */
+/*   By: darguerr <darguerr@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/12 16:20:47 by jeandrad          #+#    #+#             */
-/*   Updated: 2025/05/12 16:30:14 by jeandrad         ###   ########.fr       */
+/*   Updated: 2025/05/13 17:47:53 by darguerr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+Función ilegal: Free. No esta permitida la opcion free en la funcion principal.
+Free debe estar en main.
+*/
 
 #include <stdlib.h>
 #include <string.h>

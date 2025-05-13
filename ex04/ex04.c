@@ -3,16 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   ex04.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jeandrad <jeandrad@student.42malaga.com    +#+  +:+       +#+        */
+/*   By: darguerr <darguerr@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/10 13:17:03 by jeandrad          #+#    #+#             */
-/*   Updated: 2025/05/10 15:27:09 by jeandrad         ###   ########.fr       */
+/*   Updated: 2025/05/13 17:41:08 by darguerr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
+
+/*
+ex04
+Valgrind dice que hay un leak porque estamos haciendo un malloc y no lo estamos haciendo un free
+*/
 
 void	process_input(const char *input)
 {

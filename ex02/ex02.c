@@ -3,14 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   ex02.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jeandrad <jeandrad@student.42malaga.com    +#+  +:+       +#+        */
+/*   By: darguerr <darguerr@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/10 12:57:45 by jeandrad          #+#    #+#             */
-/*   Updated: 2025/05/12 16:36:35 by jeandrad         ###   ########.fr       */
+/*   Updated: 2025/05/13 17:32:52 by darguerr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
+
+/*
+ex02
+variable i no inicializada (i = 1;)
+*/
 
 void	print_uneven_numbers(void)
 {

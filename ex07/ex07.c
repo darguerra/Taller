@@ -3,16 +3,22 @@
 /*                                                        :::      ::::::::   */
 /*   ex07.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jeandrad <jeandrad@student.42malaga.com    +#+  +:+       +#+        */
+/*   By: darguerr <darguerr@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/12 16:31:56 by jeandrad          #+#    #+#             */
-/*   Updated: 2025/05/12 16:32:12 by jeandrad         ###   ########.fr       */
+/*   Updated: 2025/05/13 18:03:03 by darguerr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
+
+/*
+Ex07
+Acepta argumentos que no debería aceptar, hola devuelve 0
+Puede que necesite ser la variable un long para llegar a x cantidad de numeros mas extenso?
+*/
 
 void	print_string(const char *str)
 {

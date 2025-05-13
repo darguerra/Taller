@@ -3,15 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ex00.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jeandrad <jeandrad@student.42malaga.com    +#+  +:+       +#+        */
+/*   By: darguerr <darguerr@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/10 12:51:15 by jeandrad          #+#    #+#             */
-/*   Updated: 2025/05/12 16:35:49 by jeandrad         ###   ########.fr       */
+/*   Updated: 2025/05/13 17:14:52 by darguerr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 #include <string.h>
+#include <stdio.h>
 
 char	*ft_strdup(const char *s)
 {
@@ -31,5 +32,6 @@ char	*ft_strdup(const char *s)
 		dup[i] = s[i];
 		i++;
 	}
+	dup[i] = '\0';
 	return (dup);
 }

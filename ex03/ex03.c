@@ -3,14 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   ex03.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jeandrad <jeandrad@student.42malaga.com    +#+  +:+       +#+        */
+/*   By: darguerr <darguerr@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/22 10:39:03 by jeandrad          #+#    #+#             */
-/*   Updated: 2025/05/12 16:39:58 by jeandrad         ###   ########.fr       */
+/*   Updated: 2025/05/13 17:35:37 by darguerr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
+
+/*
+Ex03: el principal fallo era la falta de protección de malloc
+Pasamos al 4!!
+*/
 
 static int	ft_nsize(long i)
 {
