@@ -1,0 +1,2 @@
+Haz un programa que simule bash. Debe permitir ejecutar comandos del sistema de forma adecuada.
+Para salir del programa ejecutable puedes hacer control + C

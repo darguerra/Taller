@@ -1,0 +1,3 @@
+Haz una funcion que imprima los numeros impares del 0 al 100.
+
+Funciones permitidas: write()

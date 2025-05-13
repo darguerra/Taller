@@ -1,0 +1,1 @@
+Haz un programa que reciba un número como argumento y reserve memoria para un arreglo de enteros de ese tamaño.

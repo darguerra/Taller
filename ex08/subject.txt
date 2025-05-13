@@ -1,0 +1,3 @@
+Haz un programa que reciba una opción y un valor como argumentos. Si la opción es "toupper", debe convertir el valor a mayúsculas. Si la opción es "repeat", debe repetir el alfabeto el número de veces indicado por el valor.
+
+Funciones permitidas: malloc(), write(), strcmp(), toupper(), atoi(), memcpy()

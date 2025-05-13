@@ -1,0 +1,3 @@
+Haz un programa que reciba una operación ("add" o "mul") y dos números como argumentos. Debe realizar la operación indicada y escribir el resultado correcto en pantalla.
+
+Funciones permitidas: write(), strcmp(), atoi(), snprintf()

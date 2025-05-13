@@ -1,0 +1,3 @@
+Haz un programa que procese un string recibido como argumento. Si el string es "loop", debe entrar en un mostrar la palabra 5 veces. Si el string es "exit", debe terminar. En cualquier otro caso, debe escribir el string en pantalla.
+
+Funciones permitidas: write(), strcmp()

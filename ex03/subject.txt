@@ -1,0 +1,5 @@
+Haz una función que replique a itoa con el siguiente prototipo:
+
+char *ft_itoa(int value)
+
+Funciones permitidas: malloc()

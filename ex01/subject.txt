@@ -1,0 +1,5 @@
+Haz una función que calcule el cuadrado de un numero entero e imprima el resultado.
+
+void calculate_square(int num) 
+
+Funciones permitidas: printf()

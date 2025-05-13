@@ -1,0 +1,5 @@
+Haz una función que replique a strdup con el siguiente prototipo:
+
+char *ft_strdup(const char *s)
+
+Funciones permitidas: strlen, malloc

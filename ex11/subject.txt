@@ -1,0 +1,1 @@
+Haz un programa que reciba dos archivos como argumentos y copie el contenido del primero al segundo.

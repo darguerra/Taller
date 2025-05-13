@@ -1,0 +1,3 @@
+Haz un programa que reciba un string como argumento y escriba en pantalla dicho mensaje en mayusculas.
+
+Funciones permitidas: malloc(), toupper(), write(), strlen()
